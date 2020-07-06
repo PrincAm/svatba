@@ -5,6 +5,8 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
+  max-width: 70rem;
+  margin: 0 auto;
 
   a {
     color: #757575;
@@ -14,5 +16,9 @@ export const Container = styled.header`
     &:hover {
       color: inherit;
     }
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
   }
 `;

@@ -4,29 +4,35 @@ import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
+import Title from 'components/title';
 
-const About = ({ data }) => (
+const Gifts = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.aboutJson.title} />
+    <Head pageTitle={data.giftsJson.title} />
+    <Box>
+      <Title as="h2" size="large">
+        {data.giftsJson.title}
+      </Title>
+    </Box>
     <Box>
       <div
         dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
+          __html: data.giftsJson.content.childMarkdownRemark.html,
         }}
       />
     </Box>
   </Layout>
 );
 
-About.propTypes = {
+Gifts.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default About;
+export default Gifts;
 
 export const query = graphql`
-  query AboutQuery {
-    aboutJson {
+  query GiftsQuery {
+    giftsJson {
       title
       content {
         childMarkdownRemark {

@@ -1,0 +1,1 @@
+Téměř vše máme, a proto nejvíce uvítáme peněžní dary na pokrytí nákladů svatby a svatební cesty 🏖️ 🙂

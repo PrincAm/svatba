@@ -3,30 +3,33 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
-import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
-import Modal from 'containers/modal';
+import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+        Vážená rodino, přátelé, kamarádi
       </Title>
-      <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
-      </Modal>
+      <p>
+        Děkujeme, že jste navštívili naše stránky. Doufáme, že zde naleznete
+        všechny informace a odpovědi na otázky, které se týkají naší svatby.
+        Těšíme se, že tento den strávíte s námi! Budeme se snažit vám ho co
+        nejvíce zpříjemnit.
+      </p>
     </Box>
-    <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
+    <Box>
+      <Img
+        fluid={data.homeJson.coupleImage.childImageSharp.fluid}
+        alt="couple"
+      />
+
+      <Img
+        fluid={data.homeJson.announcementImage.childImageSharp.fluid}
+        alt="announcement"
+      />
+    </Box>
   </Layout>
 );
 
@@ -46,14 +49,19 @@ export const query = graphql`
           rawMarkdownBody
         }
       }
-      gallery {
-        title
-        copy
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+
+      coupleImage {
+        childImageSharp {
+          fluid(maxHeight: 500, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+
+      announcementImage {
+        childImageSharp {
+          fluid(maxHeight: 500, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

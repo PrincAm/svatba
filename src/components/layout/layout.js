@@ -1,16 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
 import Head from 'components/head';
 import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
+
+const Main = styled.main`
+  max-width: 65rem;
+  margin: 0 auto;
+`;
 
 const Layout = ({ data, children }) => (
   <div>
     <GlobalStyle />
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />
-    {children}
+    <Main>{children}</Main>
   </div>
 );
 
