@@ -26,11 +26,11 @@ const Place = ({ data }) => (
     <Box>
       Svatba se uskuteční v <Bold>sobotu 5. září 2020</Bold> ve starobylém
       městečku <Bold>Svätý Jur</Bold> nedaleko Bratislavy. Svätý Jur se pyšní
-      více než 700-letou vinařskou tradicí a je obklopeno unikátními
-      terasovitými vinohrady na úpatí Malých Karpat. Název města Svätý Jur je
-      odvozen od jména patrona města - svatého Jiřího, přičemž Jur je archaická
-      podoba měna Juraj (Jiří). Pokud se Vám podaří přijít dříve, doporučujeme
-      vám predchádzku jeho malebným centrem!
+      více než 700-letou vinařskou tradicí a je obklopen unikátními terasovitými
+      vinohrady na úpatí Malých Karpat. Název města Svätý Jur je odvozen od
+      jména patrona města - svatého Jiřího, přičemž Jur je archaická podoba
+      jména Juraj (Jiří). Pokud se Vám podaří přijít dříve, doporučujeme vám
+      procházku jeho malebným centrem!
     </Box>
     <Box>
       <Title>

@@ -37,7 +37,7 @@ const Program = ({ data }) => (
           </span>
         </Bold>{' '}
         Svoje &quot;Ano!&quot; si povíme v prostorách Městského úřadu města
-        Svätý Jur. K budově sa můžete dopravit autom, nebo i pěšky. Budova je
+        Svätý Jur. K budově sa můžete dopravit autem, nebo i pěšky. Budova je
         vzdálená cca 20 min chůze od Horského hotelu Eva, dámám a slečnám tedy
         doporučujeme pohodlnější obuv.
       </p>
