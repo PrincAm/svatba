@@ -29,7 +29,7 @@ const Place = ({ data }) => (
       více než 700-letou vinařskou tradicí a je obklopen unikátními terasovitými
       vinohrady na úpatí Malých Karpat. Název města Svätý Jur je odvozen od
       jména patrona města - svatého Jiřího, přičemž Jur je archaická podoba
-      jména Juraj (Jiří). Pokud se Vám podaří přijít dříve, doporučujeme vám
+      jména Juraj (Jiří). Pokud se vám podaří přijít dříve, doporučujeme vám
       procházku jeho malebným centrem!
     </Box>
     <Box>
@@ -63,7 +63,7 @@ const Place = ({ data }) => (
         >
           Horském hotelu Eva
         </Link>
-        . Hotel se nachází na pokraji Svatého Jura, což nám zaručí klid a
+        . Hotel se nachází na pokraji Svätého Jura, což nám zaručí klid a
         nerušenou zábavu! Okolí poskytuje dostatek parkovacích míst.
         <div
           dangerouslySetInnerHTML={{

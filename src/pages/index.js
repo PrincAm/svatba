@@ -10,7 +10,7 @@ const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        Vážená rodino, přátelé, kamarádi.
+        Vážená rodino, přátelé, kamarádi!
       </Title>
       <p>
         Děkujeme, že jste navštívili naše stránky. Doufáme, že zde naleznete
