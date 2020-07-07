@@ -24,7 +24,7 @@ const Faq = ({ data }) => (
         máme všichni rádi, věříme však, že pokud miminko necháte u babičky a
         dědy, tak se lépe pobavíte i vy! Hotel poskytuje pět dětských židlí,
         kočárek si můžete odložit na recepci. Pokoje jsou pro 4 osoby, bez
-        možnosti dětské postýlky, proto vás poprosíme i o ohleduplnost vůdči
+        možnosti dětské postýlky, proto vás poprosíme i o ohleduplnost vůči
         vašim budoucim spolubydlícím. Ubytování je přímo nad hostinou, proto
         prosím zvažte zda tento set up nebude velmi rušivý pro spánek miminka.
         Pokud si nejste jistí, napište nám.
