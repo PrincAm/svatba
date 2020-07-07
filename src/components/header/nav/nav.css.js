@@ -13,6 +13,9 @@ export const Container = styled.nav`
     li {
       text-transform: uppercase;
       font-size: 1.3rem;
+      @media (max-width: 767px) {
+        font-size: 1.2rem;
+      }
 
       & + li {
         margin-left: 2rem;

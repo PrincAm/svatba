@@ -20,5 +20,6 @@ export const Container = styled.header`
 
   @media (max-width: 767px) {
     flex-direction: column;
+    padding-bottom: 2rem;
   }
 `;
