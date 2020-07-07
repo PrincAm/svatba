@@ -12,7 +12,7 @@ const Nav = () => (
         <Link to="/program">Program</Link>
       </li>
       <li>
-        <Link to="/gifts">Dary</Link>
+        <Link to="/faq">Časté otázky</Link>
       </li>
       <li>
         <Link to="/contact">Kontakt</Link>
