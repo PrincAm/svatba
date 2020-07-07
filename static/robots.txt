@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://anickaadam.cz/sitemap.xml
+Sitemap: https://anickaadam.cz/sitemap.xml
