@@ -54,7 +54,10 @@ const Head = ({
     <meta content={canonical} name="twitter:url" />
     <link rel="canonical" href={canonical} />
 
-    <meta content={imageUrl || `${siteUrl}/social.png`} property="og:image" />
+    <meta
+      content={imageUrl || `${siteUrl}/social.png?v=1`}
+      property="og:image"
+    />
     <meta content="1024" property="og:image:width" />
     <meta content="512" property="og:image:height" />
 
