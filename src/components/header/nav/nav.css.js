@@ -17,7 +17,7 @@ export const Container = styled.nav`
       & + li {
         margin-left: 2rem;
         @media (max-width: 767px) {
-          margin-left: 1.7rem;
+          margin-left: 1.3rem;
         }
       }
     }
