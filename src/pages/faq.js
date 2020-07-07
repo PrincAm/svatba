@@ -15,7 +15,7 @@ const Faq = ({ data }) => (
       </Title>
     </Box>
     <Box>
-      <Title>Můžeme přivést děti?</Title>
+      <Title>Můžeme přivézt děti?</Title>
       <p>
         Děti{' '}
         <span role="img" aria-label="baby emoji">
