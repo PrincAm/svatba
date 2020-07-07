@@ -4,7 +4,12 @@ import Layout from 'components/layout';
 
 const NotFound = () => (
   <Layout>
-    <Box>Not found.</Box>
+    <Box>
+      Stránka nenalezena, zkuste jinou{' '}
+      <span role="img" aria-label="wink emoji">
+        😉
+      </span>
+    </Box>
   </Layout>
 );
 
