@@ -40,11 +40,19 @@ const Place = ({ data }) => (
         </span>
       </Title>
       <p>
-        Obřad bude v prostorách městského úřadu od 16:00 hod. Původní šlechtický
-        dům rodu Zichyovců slouží od roku 1865 jako městský úřad. Dnešní
-        neogotickou podobu dostala fasáda v druhé polovině 19. století. Obřadní
-        síň je velmi prostorná s dostatečným místem k sezení. K síni vede
-        několik schodů, doufáme, že vám to nezpůsobí žádné potíže.
+        Obřad bude v prostorách{' '}
+        <Link
+          href="https://www.svatyjur.sk/content/mestsky-urad"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          městského úřadu
+        </Link>{' '}
+        od 16:00 hod. Původní šlechtický dům rodu Zichyovců slouží od roku 1865
+        jako městský úřad. Dnešní neogotickou podobu dostala fasáda v druhé
+        polovině 19. století. Obřadní síň je velmi prostorná s dostatečným
+        místem k sezení. K síni vede několik schodů, doufáme, že vám to
+        nezpůsobí žádné potíže.
       </p>
     </Box>
     <Box>
