@@ -7,6 +7,8 @@ import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
 
 const Main = styled.main`
+  display: flex;
+  flex-direction: column;
   max-width: 65rem;
   margin: 0 auto;
 `;
