@@ -48,7 +48,7 @@ const Program = ({ data }) => (
             🍽️
           </span>
         </Bold>{' '}
-        Veselka se bude odehrávat v prostorách Horského hotelu Eva. Můžete se
+        Veselka se bude odehrávat v prostorech Horského hotelu Eva. Můžete se
         tešit na skvělé jídlo (prosíme, informujte nás, pokud máte jakékoliv
         alergie anebo omezení) a živou hudbu v podání kapely Na kolená. Doufáme,
         že do kolen nepůjdeme předčasně, a protancujeme celou noc!
