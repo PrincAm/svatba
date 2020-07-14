@@ -60,6 +60,34 @@ const Faq = ({ data }) => (
         </span>
       </p>
     </Box>
+    <Box>
+      <Title>Máme přivézt dort a zákusky?</Title>
+      <p>
+        Protože budeme cestovat přes půl Čech a Slovensko, měli bychom problém s
+        dopravou dortů domů{' '}
+        <span role="img" aria-label="cake emoji">
+          🎂
+        </span>{' '}
+        proto si je neprosíme.
+      </p>
+    </Box>
+    <Box>
+      <Title>A jak velkou kytici chcete?</Title>
+      <p>
+        Nejsme ze Svätého Juru a stejně jako s dorty bychom měli problém s
+        jejich{' '}
+        <span role="img" aria-label="bouquet emoji">
+          💐
+        </span>{' '}
+        dopravou domů. Ale pokojovky nebo sušené bylinky nás potěší{' '}
+        <span role="img" aria-label="herb emoji">
+          🌿
+        </span>{' '}
+        <span role="img" aria-label="smile emoji">
+          🙂
+        </span>
+      </p>
+    </Box>
   </Layout>
 );
 
