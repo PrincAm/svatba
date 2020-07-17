@@ -71,7 +71,11 @@ const Place = ({ data }) => (
         >
           Horském hotelu Eva
         </Link>
-        . Hotel se nachází na pokraji Svätého Jura, což nám zaručí klid a
+        , což je spíše penzion a bez hor{' '}
+        <span role="img" aria-label="smile emoji">
+          🙂
+        </span>{' '}
+        Penzion se nachází na pokraji Svätého Jura, což nám zaručí klid a
         nerušenou zábavu! Okolí poskytuje dostatek parkovacích míst.
         <div
           dangerouslySetInnerHTML={{
