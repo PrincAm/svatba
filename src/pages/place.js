@@ -73,7 +73,7 @@ const Place = ({ data }) => (
         </Link>
         , což je spíše penzion a bez hor{' '}
         <span role="img" aria-label="smile emoji">
-          🙂
+          😅
         </span>{' '}
         Penzion se nachází na pokraji Svätého Jura, což nám zaručí klid a
         nerušenou zábavu! Okolí poskytuje dostatek parkovacích míst.
