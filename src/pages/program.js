@@ -21,6 +21,9 @@ const Program = ({ data }) => (
     </Box>
     <Box>
       <p>
+        <Bold>Sobota 5.9.</Bold>
+      </p>
+      <p>
         <Bold>
           Do 15:00 check-in{' '}
           <span role="img" aria-label="hotel emoji">
@@ -79,8 +82,20 @@ const Program = ({ data }) => (
         však k dispozici až do rána bílého.
       </p>
       <p>
+        <Bold>Neděle 6.9.</Bold>
+      </p>
+      <p>
         <Bold>
-          Do 10:00 v neděli check-out{' '}
+          Od 8:00 do 10:00 snídaně{' '}
+          <span role="img" aria-label="cooking emoji">
+            🍳
+          </span>
+        </Bold>{' '}
+        formou bufetu.
+      </p>
+      <p>
+        <Bold>
+          Do 10:00 check-out{' '}
           <span role="img" aria-label="hotel emoji">
             🏨
           </span>
