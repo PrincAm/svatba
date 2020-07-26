@@ -90,6 +90,7 @@ const Place = ({ data }) => (
           🛏️
         </span>{' '}
         Z hotelu na obřad a zpět můžete přejet autem nebo se projít pěšky.
+        Check-out je do 10 hodin následujícího dne.
       </p>
     </Box>
   </Layout>
