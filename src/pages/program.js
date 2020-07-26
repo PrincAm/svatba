@@ -78,6 +78,15 @@ const Program = ({ data }) => (
         Kapustnica je závěrečným jídlem naší hostiny. Koláče, pití a hudba jsou
         však k dispozici až do rána bílého.
       </p>
+      <p>
+        <Bold>
+          Do 10:00 v neděli check-out{' '}
+          <span role="img" aria-label="hotel emoji">
+            🏨
+          </span>
+        </Bold>{' '}
+        z hotelu.
+      </p>
     </Box>
   </Layout>
 );
