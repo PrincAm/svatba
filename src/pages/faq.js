@@ -15,6 +15,32 @@ const Faq = ({ data }) => (
       </Title>
     </Box>
     <Box>
+      <Title>Musí se na Slovensku nosit roušky?</Title>
+      <p>
+        Ano{' '}
+        <span role="img" aria-label="medical mask emoji">
+          😷
+        </span>{' '}
+        V hromadné dopravě, pohostinství a dalších veřejných místech, jako jsou
+        obchody nebo čerpací stanice, zůstává nošení roušek nadále povinné. Jde
+        ale o jediné viditelné a citelné omezení, jež by se mohlo Čechů na
+        Slovensku dotknout.
+      </p>
+    </Box>
+    {/* <Box>
+      <Title>Jaké jsou podmínky pro účast na obřadě?</Title>
+      <p>
+        Vstup a pobyt na obřadě je možný jen s rouškou{' '}
+        <span role="img" aria-label="medical mask emoji">
+          😷
+        </span>{' '}
+        Je nutné si vydezinfikovat ruce při vstupu nebo použít jednorázové
+        rukavice. Dále se doporučuje sedět mimo osoby žijící v jiné domácnosti,
+        tak aby mezi obsazenými místy zůstalo jedno volné. Ženich a nevěsta
+        nemusí mít během obřadu roušku.
+      </p>
+    </Box> */}
+    <Box>
       <Title>Můžeme přivézt děti?</Title>
       <p>
         Děti{' '}
