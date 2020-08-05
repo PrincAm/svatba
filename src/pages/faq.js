@@ -26,8 +26,14 @@ const Faq = ({ data }) => (
         ale o jediné viditelné a citelné omezení, jež by se mohlo Čechů na
         Slovensku dotknout.
       </p>
+      <p>
+        Na svatební hostinu se roušky mohou sundat{' '}
+        <span role="img" aria-label="smile emoji">
+          🙂
+        </span>
+      </p>
     </Box>
-    {/* <Box>
+    <Box>
       <Title>Jaké jsou podmínky pro účast na obřadě?</Title>
       <p>
         Vstup a pobyt na obřadě je možný jen s rouškou{' '}
@@ -39,7 +45,7 @@ const Faq = ({ data }) => (
         tak aby mezi obsazenými místy zůstalo jedno volné. Ženich a nevěsta
         nemusí mít během obřadu roušku.
       </p>
-    </Box> */}
+    </Box>
     <Box>
       <Title>Můžeme přivézt děti?</Title>
       <p>
