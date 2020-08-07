@@ -54,6 +54,22 @@ const Place = ({ data }) => (
         místem k sezení. K síni vede několik schodů, doufáme, že vám to
         nezpůsobí žádné potíže.
       </p>
+      <p>
+        Na uzavřeném dvoře u městského úřadu se skrývá{' '}
+        <Link
+          href="https://www.cafekorzo.sk/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Café Korzo
+        </Link>{' '}
+        <span role="img" aria-label="coffee emoji">
+          ☕
+        </span>{' '}
+        s venkovní zahrádkou, které doporučujeme před obřadem navštívit. Můžete
+        si objednat místní víno, plzničku nebo třeba kávu se zákuskem a
+        zpříjemnit si čekání na obřad.
+      </p>
     </Box>
     <Box>
       <Title>
