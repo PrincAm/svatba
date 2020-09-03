@@ -45,7 +45,7 @@ const Faq = ({ data }) => (
         tak aby mezi obsazenými místy zůstalo jedno volné. Ženich a nevěsta
         nemusí mít během obřadu roušku.
       </p>
-      <p>Informace budeme průběžně aktualizovat!</p>
+      <p>Podmínky zůstávají stejné.</p>
     </Box>
     <Box>
       <Title>Můžeme přivézt děti?</Title>
