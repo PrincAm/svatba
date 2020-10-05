@@ -5,31 +5,51 @@ import Box from 'components/box';
 import Title from 'components/title';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
+import styled from 'styled-components';
+
+const BoxCentered = styled.div`
+  text-align: center;
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+`;
 
 const Index = ({ data }) => (
   <Layout>
-    <Box>
-      <Title as="h2" size="large">
-        Vážená rodino, přátelé, kamarádi!
-      </Title>
-      <p>
-        Děkujeme, že jste navštívili naše stránky. Doufáme, že zde naleznete
-        všechny informace a odpovědi na otázky, které se týkají naší svatby.
-        Těšíme se, že tento den strávíte s námi! Budeme se snažit vám ho co
-        nejvíce zpříjemnit.
-      </p>
-    </Box>
-    <Box>
-      <Img
-        fluid={data.homeJson.coupleImage.childImageSharp.fluid}
-        alt="couple"
-      />
-
-      <Img
-        fluid={data.homeJson.announcementImage.childImageSharp.fluid}
-        alt="announcement"
-      />
-    </Box>
+    <BoxCentered>
+      <Box>
+        <Title as="h2" size="large">
+          Vážená rodino, přátelé, kamarádi!
+        </Title>
+        <br />
+        <p>
+          Svatba byla nádherná, ještě jednou za vše děkujeme{' '}
+          <span role="img" aria-label="smiling face">
+            😊
+          </span>
+        </p>
+      </Box>
+      <Link
+        href="https://ondrejcechvala.passgallery.com/-annaadam/gallery"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Fotogalerie
+      </Link>
+      <Link
+        href="https://ondrejcechvala.passgallery.com/-annaadam/gallery"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Box>
+          <Img
+            fluid={data.homeJson.coupleImage.childImageSharp.fluid}
+            alt="couple"
+          />
+        </Box>
+      </Link>
+    </BoxCentered>
   </Layout>
 );
 
